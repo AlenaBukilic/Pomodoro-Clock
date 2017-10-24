@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Pomodoro Clock</title>
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Leckerli+One" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div>
+	<h1>Pomodoro clock</h1>
+	<p>freeCodeCamp</p>
+</div>
+<div class="container">
+	<div class="side">
+		<h5>Break Length</h5>
+		<section>
+			<span id="plusbr" class="fa fa-plus"></span>
+			<h3 id="break"></h3>
+			<span id="minbr" class="fa fa-minus"></span>
+		</section>
+	</div>
+	<section class="mid">
+		<h3 id="title">Set Timer</h3>
+		<h3 id="stopwatch"></h3>
+		<div class="icons">
+			<span id="play" class="fa fa-play"></span>
+			<span id="pause" class="fa fa-pause"></span>
+			<span id="reset" class="fa fa-refresh"></span>
+		</div>
+	</section>
+	<div class="side">
+		<h5>Session Length</h5>
+		<section>
+			<span id="plusses" class="fa fa-plus"></span>
+			<h3 id="session"></h3>
+			<span id="minses" class="fa fa-minus"></span>
+		</section>
+	</div>
+</div>
+<div id="myProgress">
+  <div id="myBar"></div>
+</div>
+<footer>
+  <h6>Designed and coded by <a href="https://github.com/AlenaBukilic">Alena Bukilic</a>.</h6>
+</footer>
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
